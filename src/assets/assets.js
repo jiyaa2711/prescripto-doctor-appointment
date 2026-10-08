@@ -1,0 +1,86 @@
+import appointment_img from './appointment_img.png'
+import header_img from './header_img.png'
+import group_profiles from './group_profiles.png'
+import profile_pic from './profile_pic.png'
+import contact_image from './contact_image.png'
+import about_image from './about_image.png'
+import logo from './logo.svg'
+import dropdown_icon from './dropdown_icon.svg'
+import menu_icon from './menu_icon.svg'
+import cross_icon from './cross_icon.png'
+import chats_icon from './chats_icon.svg'
+import verified_icon from './verified_icon.svg'
+import arrow_icon from './arrow_icon.svg'
+import info_icon from './info_icon.svg'
+import upload_icon from './upload_icon.png'
+import stripe_logo from './stripe_logo.png'
+import razorpay_logo from './razorpay_logo.png'
+import Dermatologist from './Dermatologist.svg'
+import Gastroenterologist from './Gastroenterologist.svg'
+import General_physician from './General_physician.svg'
+import Gynecologist from './Gynecologist.svg'
+import Neurologist from './Neurologist.svg'
+import Pediatricians from './Pediatricians.svg'
+import Cardiologist from './Cardiologist.svg'
+import Orthopedic from './Orthopedic.svg'
+// Admin / doctor panel icons
+import admin_logo from './admin_logo.svg'
+import home_icon from './home_icon.svg'
+import appointment_icon from './appointment_icon.svg'
+import appointments_icon from './appointments_icon.svg'
+import add_icon from './add_icon.svg'
+import people_icon from './people_icon.svg'
+import patients_icon from './patients_icon.svg'
+import doctor_icon from './doctor_icon.svg'
+import list_icon from './list_icon.svg'
+import cancel_icon from './cancel_icon.svg'
+import tick_icon from './tick_icon.svg'
+import earning_icon from './earning_icon.svg'
+import upload_area from './upload_area.svg'
+
+
+export const assets = {
+    appointment_img,
+    header_img,
+    group_profiles,
+    logo,
+    chats_icon,
+    verified_icon,
+    info_icon,
+    profile_pic,
+    arrow_icon,
+    contact_image,
+    about_image,
+    menu_icon,
+    cross_icon,
+    dropdown_icon,
+    upload_icon,
+    stripe_logo,
+    razorpay_logo,
+    admin_logo,
+    home_icon,
+    appointment_icon,
+    appointments_icon,
+    add_icon,
+    people_icon,
+    patients_icon,
+    doctor_icon,
+    list_icon,
+    cancel_icon,
+    tick_icon,
+    earning_icon,
+    upload_area
+}
+
+// Specialty menu on the home page. Names must match backend/constants/specialities.js exactly.
+// (The doctors themselves now come from MongoDB - see backend/seed/seedData.js)
+export const specialityData = [
+    { speciality: 'General Physician', image: General_physician },
+    { speciality: 'Gynecologist', image: Gynecologist },
+    { speciality: 'Dermatologist', image: Dermatologist },
+    { speciality: 'Pediatrician', image: Pediatricians },
+    { speciality: 'Neurologist', image: Neurologist },
+    { speciality: 'Gastroenterologist', image: Gastroenterologist },
+    { speciality: 'Cardiologist', image: Cardiologist },
+    { speciality: 'Orthopedic', image: Orthopedic },
+]

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #374151;
+}
+
+/* Hide scrollbar on admin sidebar / tables while keeping them scrollable */
+::-webkit-scrollbar {
+  display: none;
+}
